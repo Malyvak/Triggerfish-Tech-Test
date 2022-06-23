@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Why demand for in-store contactless payments is here to stay",
+        "description": "The demand for in-store contactless payment technology has increased over the past two years. Learn more about this growing trend and how you can leverage it.",
+        "readTime": 4,
+        "imageUrl": "1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "7 ways to increase ecommerce sales",
+        "description": "Increase ecommerce sales with these 5 ideas to improve your customers' online payment experience.",
+        "readTime": 6,
+        "imageUrl": "2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "How technology empowers businesses to prepare for the future of commerce",
+        "description": "The future of commerce is ever changing. Learn how our future-forward commerce technology keeps businesses at the forefront and removes complexity.",
+        "readTime": 5,
+        "imageUrl": "3.jpg"
+    }
+]
