@@ -1,5 +1,4 @@
 <template>
-    
     <div class="article" v-for="article in articles" :key="article.id">
         <img class="image" :src="article.imageUrl">
         <div class="read-time">{{article.readTime.toString() + ' minute read'}}</div>
@@ -10,19 +9,15 @@
             <div class="link-text">READ OUR INSIGHTS</div>
         </div>
     </div>
- 
 </template>
 
 
-
 <script lang="ts">
-import { Article } from '@/entities/article';
 import articleData from '@/data/data.json';
 import { defineComponent } from 'vue';
 
 
 export default defineComponent({
-    components: { Article },
     data() {
         return {
             articles: articleData
@@ -32,9 +27,7 @@ export default defineComponent({
 </script>
 
 
-
 <style>
-
 .article {
     margin: 3rem;
     background: #f3f3f3;
@@ -98,6 +91,4 @@ export default defineComponent({
     padding: none;
   }
 }
-
-
 </style>

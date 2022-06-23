@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Articles from '@/components/Articles.vue'
-import Articles1 from './components/Articles.vue'
 </script>
+
 
 <template>
   <header>
@@ -14,6 +14,7 @@ import Articles1 from './components/Articles.vue'
     </div>
   </main>
 </template>
+
 
 <style>
 @import './assets/base.css';
@@ -58,5 +59,4 @@ main {
     display: block;
   }
 }
-
 </style>
